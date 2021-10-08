@@ -1,0 +1,33 @@
+name: combined_bwa_samtools
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=4.5
+  - bwa=0.7.12
+  - bzip2=1.0.8
+  - c-ares=1.17.2
+  - ca-certificates=2021.5.30
+  - curl=7.79.1
+  - htslib=1.9
+  - krb5=1.19.2
+  - libcurl=7.79.1
+  - libdeflate=1.2
+  - libedit=3.1.20191231
+  - libev=4.33
+  - libgcc=7.2.0
+  - libgcc-ng=11.2.0
+  - libgomp=11.2.0
+  - libnghttp2=1.43.0
+  - libssh2=1.10.0
+  - libstdcxx-ng=11.2.0
+  - libzlib=1.2.11
+  - ncurses=6.1
+  - openssl=3.0.0
+  - samtools=1.9
+  - tk=8.6.11
+  - xz=5.2.5
+  - zlib=1.2.11
+prefix: /home/jyao/miniconda3/envs/combined_bwa_samtools
