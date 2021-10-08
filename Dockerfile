@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3
+FROM continuumio/miniconda3:latest
 
 # Install the conda environment
 COPY environment.yml /
